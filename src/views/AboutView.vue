@@ -4,14 +4,14 @@
   </div>
 </template>
 <script>
-      console.log("script");
+console.log('script')
 
 export default {
   components: {
   },
   methods:{
     onLond(){
-      console.log("onLond");
+      console.log('onLond')
     }
   }
 }
