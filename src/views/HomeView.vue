@@ -1,7 +1,8 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="home" >
+    <button @click="aesvuetest()">
+      aes前端加密前端解密测试
+    </button>
   </div>
 </template>
 
@@ -13,6 +14,14 @@ export default {
   name: 'HomeView',
   components: {
     HelloWorld
-  }
+  },
+  methods:{
+    aesvuetest(){
+      console.log("onLond");
+    },
+    created() {
+      this.onLond();
+    },
+  },
 }
 </script>
